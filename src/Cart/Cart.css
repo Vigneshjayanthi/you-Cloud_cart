@@ -1,0 +1,121 @@
+.cart_height{
+height: 60px;
+}
+
+.current_page{
+   border-bottom: 1px solid #aaaaaa;
+   color:#000000
+}
+
+.cart_title_style span{
+    letter-spacing: 1px;
+    padding:10px 15px 10px 0;
+}
+.next_page{
+    border-bottom: 1px solid #aeaeae;
+    color:#aeaeae
+}
+
+.cart_title{
+    font-weight:600;
+    color:grey
+}
+ .table_design{
+     width: -webkit-fill-available;
+     border: 1px solid #f2f2f2
+ }
+ tr{
+     height: 50px;
+ }
+ td,th{
+     padding:0 10px;
+ }
+ .checkbox_style{
+     width:15px;
+     height: 15px;
+ }
+ thead tr{
+     background-color: #e5e2e2;
+ }
+ .img_box{
+     width: 100px;
+     height: 100px;
+     margin: 10px 0;
+ }
+
+ .input_field{
+     width:35px;
+     height: 35px;
+     border: 1px solid #cccccc;
+     text-align: center;
+ }
+
+ .cart_total_price{
+     display: flex;
+     justify-content: flex-end;
+     background-color: #f2f2f2;
+     padding:10px 0;
+ }
+
+ .cart_total{
+     min-width: 125px;
+ }
+ .cart_price{
+     min-width: 125px;
+ }
+ .cart_footer{
+     display: flex;
+ }
+ .cart_voucher_title{
+     letter-spacing: 1px;
+     font-weight: 700;
+     font-size: 18px;
+ }
+ .voucher_label{
+     font-size: 14px;
+ }
+ .voucher_input{
+     width:300px;
+     padding:10px 8px;
+     border-radius: 25px;
+     border:1px solid #acacac;
+ }
+ .btn_voucher{
+     width:150px;
+     padding:10px 0;
+     border-radius: 25px;
+ }
+ .checkout_total{
+     background-color: #f2f2f2;
+     max-width: 350px;
+     padding:40px;
+     margin-left: auto;
+ }
+ .cart_dividing_price{
+     height: 40px;
+     border-bottom: 1px solid #cdcdcd;
+ }
+ .cart_dividing_totalprice{
+     height: 40px;
+     color:teal;
+     font-weight: 700;
+ }
+
+ .checkout_button{
+     background-color:teal;
+     color:white;
+     width:150px;
+     border-radius: 25px;
+     padding:8px 0;
+
+ }
+
+
+ @media only screen and (max-width:767px){
+     .cart_footer{
+         display: block;
+     }
+     .cart_total_price{
+         margin-right:0px;
+     }
+ }

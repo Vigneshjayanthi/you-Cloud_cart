@@ -1,0 +1,69 @@
+.set_height{
+    height: 60px
+}
+.next_page{
+    border-bottom: 1px solid #acacac;
+    color:#CCCCCC;
+}
+.current_page{
+    border-bottom: 1px solid teal;
+    color:#000
+}
+.shipping_style span{
+  letter-spacing: 1px;
+  padding:10px 0;   
+}
+.cart_name{
+    color:teal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.border_color{
+    background-color: #f2f2f2;
+    padding:10px 0;
+    font-weight: 600;
+}
+.input_style{
+    width: 100%;
+    border:1px solid #acacac;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+.cart_header{
+    background-color: #f2f2f2;
+    padding:10px 0;
+}
+.form_border{
+    border-right: 1px solid #aeaeae;
+}
+.checkbox_style{
+    width: 18px;
+    height: 18px
+}
+.btn-bts{
+    width: 80%;
+    background-color: white;
+    color:teal;
+    border:2px solid teal;
+    padding:  8px 0;
+    border-radius: 50px;
+}
+.btn-pays{
+    width: 80%;
+    background-color: teal;
+    color:white;
+    padding: 8px;
+    border-radius: 50px;
+    /* border:3px solid teal; */
+    border: none;
+}
+.pricing_style{
+    align-items: center;
+    height: 60px;
+}
+.total_color{
+    color: rgba(24, 196, 248, 0.726);
+    font-weight: 600;
+}

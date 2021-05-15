@@ -1,0 +1,74 @@
+.height_style{
+    height: 60px;
+}
+.current_page{
+    border-bottom: 1px solid teal;
+    color:#000000
+}
+.height_style span{
+    letter-spacing: 1px;
+    padding:10px 15px 10px 0;
+}
+.title_header{
+    color: teal;
+    font-weight: 600;
+}
+.confirmation_style{
+    background-color: #f2f2f2;
+    padding: 0px 30px;
+    height: 50px;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+.content_style{
+    border-right: 1px solid #d2d2d2;
+    padding: 10px 15px;
+}
+.changeColor{
+    color: teal;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.box_border{
+    padding : 30px;
+    background-color: #f2f2f2;
+}
+.underline{
+    height: 30px;
+    border-bottom:  1px solid #acaaca;
+}
+.input_style{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #cacaca
+}
+.checkbox_style{
+    width:15px;
+    height: 15px;
+    border: 1px solid #cacaca;
+}
+.back_shopping{
+    width:80%;
+    background-color: #ffffff;
+    color:teal;
+    border-radius: 25px;
+    border :2px solid teal;
+    height: 42px;
+    padding: 0px 10px;
+}
+.payment{
+    width:80%;
+    background-color: teal;
+    color:#fff;
+    border-radius: 25px;
+    border :2px solid #fff;
+    height: 42px;
+    padding: 0px 10px;
+
+}
+
+.total_price{
+    color: #049ce2;
+    font-weight: 600;
+}
